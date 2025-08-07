@@ -1,4 +1,11 @@
 import Image from "next/image";
+import { HiDocumentDownload as ResumeIcon } from "react-icons/hi";
+import { MdLocationOn as LocationIcon } from "react-icons/md";
+import {
+  FaGithub as GithubIcon,
+  FaLinkedin as LinkedinIcon,
+  FaTwitter as TwitterIcon,
+} from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -20,26 +27,41 @@ const Header = () => {
               Hey there, I'm Kuldeep Solanki!
             </h1>
             <p className="text-sm text-[#b7b7b7] flex items-center gap-1">
-              <span>{/* <MapPin size={14} /> */}</span>
+              <LocationIcon />
               <span>Gujarat, India</span>
             </p>
             <div className="flex flex-row gap-3 text-sm text-[#b7b7b7]">
-              <div className="flex flex-row items-center gap-1 cursor-pointer hover:text-white">
-                <p>{/* <FileUser size={14} /> */}</p>
+              <a
+                className="flex flex-row items-center gap-1 cursor-pointer hover:text-white"
+                href="#"
+              >
+                <ResumeIcon />
                 <p>Resume</p>
-              </div>
-              <div className="flex flex-row items-center gap-1 cursor-pointer hover:text-white">
-                <p>{/* <Github size={14} /> */}</p>
+              </a>
+              <a
+                className="flex flex-row items-center gap-1 cursor-pointer hover:text-white"
+                href="https://github.com/kuldp18"
+                target="_blank"
+              >
+                <GithubIcon />
                 <p>Github</p>
-              </div>
-              <div className="flex flex-row items-center gap-1 cursor-pointer hover:text-white">
-                <p>{/* <Linkedin size={14} /> */}</p>
+              </a>
+              <a
+                className="flex flex-row items-center gap-1 cursor-pointer hover:text-white"
+                href="https://www.linkedin.com/in/ksolanki8"
+                target="_blank"
+              >
+                <LinkedinIcon />
                 <p>Linkedin</p>
-              </div>
-              <div className="flex flex-row items-center gap-1 cursor-pointer hover:text-white">
-                <p>{/* <Twitter size={14} /> */}</p>
+              </a>
+              <a
+                className="flex flex-row items-center gap-1 cursor-pointer hover:text-white"
+                href="https://x.com/itskuldeep8"
+                target="_blank"
+              >
+                <TwitterIcon />
                 <p>Twitter</p>
-              </div>
+              </a>
             </div>
           </div>
         </div>
