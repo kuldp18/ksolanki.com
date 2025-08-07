@@ -1,5 +1,11 @@
+import Experience from "@/components/Experience";
+
 const Home = () => {
-  return <div>Home Page</div>;
+  return (
+    <main>
+      <Experience />
+    </main>
+  );
 };
 
 export default Home;

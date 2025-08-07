@@ -19,11 +19,11 @@ const Header = () => {
               height={100}
               alt="portrait"
               className="object-cover rounded-3xl border-2 border-[#b7b7b7]"
-              quality={90}
+              quality={100}
             />
           </div>
           <div className="text flex flex-col gap-2 w-full">
-            <h1 className="sm:text-lg md:text-2xl">
+            <h1 className="sm:text-lg md:text-2xl font-semibold">
               Hey there, I'm Kuldeep Solanki!
             </h1>
             <p className="text-sm text-[#b7b7b7] flex items-center gap-1">
