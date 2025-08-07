@@ -8,14 +8,16 @@ const Experience = () => {
       <div className="flex flex-col gap-4">
         <div className="flex flex-row justify-between">
           <div className="flex flex-col">
-            <h3 className="text-lg">Full-Stack Web Development Internship</h3>
+            <h3 className="text-sm md:text-lg">
+              Full-Stack Web Development Internship
+            </h3>
             <p className="text-[#b7b7b7] text-sm">
               Business Web Solutions (BWS) Inc.
             </p>
           </div>
           <div className="flex flex-col text-sm text-[#b7b7b7]">
             <p className="place-self-end">India</p>
-            <p>Jan 2025 - Apr 2025</p>
+            <p>Jan - Apr 2025</p>
           </div>
         </div>
 
