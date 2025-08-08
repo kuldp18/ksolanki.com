@@ -72,10 +72,9 @@ const Header = () => {
         </div>
         <div className="text-justify text-[#b7b7b7] text-sm md:text-[16px]">
           <p>
-            Full-stack developer blending front-end creativity with back-end
-            logic. I am skilled in building user-focused apps using JavaScript,
-            React.js, Node.js and LLM integrations to deliver functional &
-            elegant solutions.
+            A curious fullstack developer passionate about building effortless
+            web applications, combining modern JavaScript with Generative AI and
+            LLMs to create intelligent and engaging user experiences.
           </p>
         </div>
       </header>
