@@ -25,7 +25,7 @@ const Skills = () => {
     <section>
       <SectionHeading text={"Skills"} />
 
-      <div className="text-sm md:text-[16px] text-[#c8c8c8] flex flex-col gap-3">
+      <div className="text-sm md:text-[16px] text-[#c8c8c8] flex flex-col gap-3 md:gap-2">
         {skills.map((skill, index) => (
           <div
             key={index}
