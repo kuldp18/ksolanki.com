@@ -36,7 +36,7 @@ export default function Footer() {
           href="mailto:kuldeepsolanki1854@gmail.com"
           className="hover:text-white transition-colors"
         >
-          Email
+          Contact
         </a>
         <a
           href="/Kuldeep-Solanki-Resume.pdf"

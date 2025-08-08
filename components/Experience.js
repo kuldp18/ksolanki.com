@@ -9,7 +9,7 @@ const Experience = () => {
         <div className="flex flex-row justify-between">
           <div className="flex flex-col">
             <h3 className="text-sm md:text-lg">
-              Full-Stack Web Development Internship
+              Full-Stack Web Development Intern
             </h3>
             <p className="text-[#b7b7b7] text-sm">
               Business Web Solutions (BWS) Inc.
