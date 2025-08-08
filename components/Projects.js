@@ -20,7 +20,7 @@ const projects = [
   {
     title: "Floating Sticky Notes",
     description:
-      "Full-stack Windows inspired sticky note-taking application with user authentication. Uses AppWrite as backend.",
+      "Full-stack note-taking application with user authentication. Uses AppWrite as backend.",
     code: "https://github.com/kuldp18/very-sticky-notes",
     website: "https://verysticky.netlify.app/",
     type: "personal",
@@ -28,7 +28,7 @@ const projects = [
   {
     title: "Fast Currency Converter",
     description:
-      "Modern responsive currency converter built with React. Convert between different currencies with real-time exchange rates.",
+      "Modern responsive currency converter built with React that helps you convert between different currencies with real-time exchange rates.",
     code: "https://github.com/kuldp18/react-currency",
     website: "https://fast-currency-converter.netlify.app/",
     type: "personal",
@@ -36,7 +36,7 @@ const projects = [
   {
     title: "Quirx",
     description:
-      "YouTube inspired video sharing site built with PHP and MySQL.",
+      "YouTube-inspired video sharing site built with PHP and MySQL with an admin panel. Users can give rate videos with 1 to 5 stars.",
     code: "https://github.com/kuldp18/quirx",
     type: "personal",
   },
