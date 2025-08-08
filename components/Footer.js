@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-neutral-600 to-transparent" />
 
       <p className="flex justify-center items-center gap-1 flex-wrap">
-        © {new Date().getFullYear()} — Made with{" "}
+        &copy; {new Date().getFullYear()} — Made with{" "}
         <HeartIcon className="hover:text-white cursor-pointer" size={12} /> by{" "}
         <a
           href="https://github.com/kuldp18"
