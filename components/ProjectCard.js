@@ -3,7 +3,7 @@ import { CiGlobe as WebIcon } from "react-icons/ci";
 
 const ProjectCard = ({ title, description, website, code, type }) => {
   return (
-    <div className="border-1 border-[#6c6c6c] p-3 md:p-4 flex flex-col gap-3 select-none">
+    <div className="border-1 border-[#6c6c6c] p-3 md:p-4 flex flex-col gap-3 select-none hover:border-white">
       <h2 className="text-sm font-semibold md:text-lg md:font-normal flex flex-col">
         {title || "Default Project"}
         {type && (
