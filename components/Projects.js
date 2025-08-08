@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Jiso",
     description:
-      "Jiso is a full-stack mental health companion app built with MERN stack and open-source LLM.",
+      "Jiso is a full-stack web app built with MERN stack and open-source LLM for AI based mental health assistance.",
     code: "https://github.com/kuldp18/jiso-frontend",
     type: "internship",
   },
