@@ -39,9 +39,10 @@ export default function Footer() {
           Email
         </a>
         <a
-          href="#"
+          href="/Kuldeep-Solanki-Resume.pdf"
           rel="noopener noreferrer"
           className="hover:text-white transition-colors"
+          download
         >
           Resume
         </a>

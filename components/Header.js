@@ -32,31 +32,36 @@ const Header = () => {
             </p>
             <div className="flex flex-row gap-3 text-sm text-[#b7b7b7]">
               <a
-                className="flex flex-row items-center gap-1 cursor-pointer hover:text-white"
-                href="#"
+                className="flex flex-row items-center gap-1 cursor-pointer hover:text-white transition-colors"
+                href="/Kuldeep-Solanki-Resume.pdf"
+                rel="noopener noreferrer"
+                download
               >
                 <ResumeIcon />
                 <p>Resume</p>
               </a>
               <a
-                className="flex flex-row items-center gap-1 cursor-pointer hover:text-white"
+                className="flex flex-row items-center gap-1 cursor-pointer hover:text-white transition-colors"
                 href="https://github.com/kuldp18"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <GithubIcon />
                 <p>Github</p>
               </a>
               <a
-                className="flex flex-row items-center gap-1 cursor-pointer hover:text-white"
+                className="flex flex-row items-center gap-1 cursor-pointer hover:text-white transition-colors"
                 href="https://www.linkedin.com/in/ksolanki8"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <LinkedinIcon />
                 <p>Linkedin</p>
               </a>
               <a
-                className="flex flex-row items-center gap-1 cursor-pointer hover:text-white"
+                className="flex flex-row items-center gap-1 cursor-pointer hover:text-white transition-colors"
                 href="https://x.com/itskuldeep8"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <TwitterIcon />
