@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "https://resume.ksolanki.com/*"
+  to = "https://ksolanki.com/Kuldeep-Solanki-Resume.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://resume.ksolanki.com/*"
+  to = "https://ksolanki.com/Kuldeep-Solanki-Resume.pdf"
+  status = 301
+  force = true
