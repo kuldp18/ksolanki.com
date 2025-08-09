@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // static export
+  output: "export",
+
   // Enable strict mode for better performance and SEO
   reactStrictMode: true,
 
