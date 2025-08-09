@@ -2,7 +2,7 @@
 const nextConfig = {
   // static export
   output: "export",
-
+  distDir: "out",
   // Enable strict mode for better performance and SEO
   reactStrictMode: true,
 
