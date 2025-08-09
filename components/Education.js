@@ -12,7 +12,7 @@ const Education = () => {
           <p className="text-sm">Bachelor of Computer Applications</p>
         </div>
         <div className="text-sm place-self-start">
-          <p>Sept 2022 - Sept 2025</p>
+          <p>2022 - 2025</p>
         </div>
       </div>
     </section>
