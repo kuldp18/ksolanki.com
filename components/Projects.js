@@ -46,7 +46,7 @@ const Projects = () => {
   return (
     <section>
       <SectionHeading text={"Projects"} />
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-4">
         {projects.map((project, index) => {
           return <ProjectCard {...project} key={index} />;
         })}

@@ -12,7 +12,7 @@ const Header = () => {
     <>
       <header className="flex flex-col gap-5 mb-5">
         <div className="flex flex-row gap-4 items-center">
-          <div className="flex justify-center items-center min-w-[50px]">
+          <div className="hidden sm:flex justify-center items-center min-w-[50px]">
             <Image
               src="/portrait.jpg"
               width={100}
@@ -23,7 +23,7 @@ const Header = () => {
             />
           </div>
           <div className="text flex flex-col gap-2 w-full">
-            <h1 className="sm:text-lg md:text-2xl font-semibold">
+            <h1 className="text-xl sm:text-2xl font-semibold">
               Hey there, I'm Kuldeep Solanki!
             </h1>
             <p className="text-sm text-[#b7b7b7] flex items-center gap-1">
@@ -70,7 +70,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="text-justify text-[#b7b7b7] text-sm md:text-[16px]">
+        <div className="text-justify text-[#b7b7b7] text-[12px] md:text-[16px]">
           <p>
             A curious fullstack developer passionate about building effortless
             web applications, combining modern JavaScript with Generative AI and

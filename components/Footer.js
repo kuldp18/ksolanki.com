@@ -2,7 +2,7 @@ import { FaHeart as HeartIcon } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="mt-18 text-center text-sm text-[#b7b7b7] pt-6 relative">
+    <footer className="mt-18 text-center text-[12px] sm:text-sm text-[#b7b7b7] pt-6 relative">
       {/* Gradient border */}
       <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-neutral-600 to-transparent" />
 

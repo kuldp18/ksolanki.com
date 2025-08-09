@@ -10,7 +10,7 @@ const ProjectCard = ({ title, description, website, code, type }) => {
           <span className="text-[#b7b7b7] text-[12px] capitalize">{type}</span>
         )}
       </h2>
-      <p className="text-sm text-[#b7b7b7] text-justify min-h-[90px]">
+      <p className="text-sm text-[#b7b7b7] text-justify md:min-h-[90px]">
         {description}
       </p>
       <div className="text-sm text-[#b7b7b7] flex gap-3">
