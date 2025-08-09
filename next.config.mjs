@@ -2,12 +2,8 @@
 const nextConfig = {
   // static export
   output: "export",
-  distDir: "out",
   // Enable strict mode for better performance and SEO
   reactStrictMode: true,
-
-  // Enable SWC minification for better performance
-  swcMinify: true,
 
   // Generate sitemap and robots.txt
   trailingSlash: false,
@@ -49,3 +45,5 @@ const nextConfig = {
     ];
   },
 };
+
+export default nextConfig;
