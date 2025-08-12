@@ -72,8 +72,8 @@ const Header = () => {
         </div>
         <div className="text-justify text-[#b7b7b7] text-[12px] md:text-[16px]">
           <p>
-            A curious fullstack developer passionate about building effortless
-            web applications, combining modern JavaScript with Generative AI and
+            A curious fullstack developer passionate about building web
+            applications, combining modern JavaScript with Generative AI and
             LLMs to create intelligent and engaging user experiences.
           </p>
         </div>

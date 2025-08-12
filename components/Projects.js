@@ -36,7 +36,7 @@ const projects = [
   {
     title: "Quirx",
     description:
-      "YouTube-inspired video sharing site built with PHP and MySQL with an admin panel. Users can give rate videos with 1 to 5 stars.",
+      "YouTube-inspired video sharing site built with PHP and MySQL, with an admin panel. Users can also rate videos with 1 to 5 stars.",
     code: "https://github.com/kuldp18/quirx",
     type: "personal",
   },
