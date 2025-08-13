@@ -1,6 +1,4 @@
 import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 
 export const metadata = {
   title:
@@ -209,11 +207,7 @@ export default function RootLayout({ children }) {
         <meta name="format-detection" content="telephone=no" />
       </head>
       <body className="antialiased">
-        <div className="max-w-[980px] mx-auto min-h-screen p-5">
-          <Header />
-          {children}
-          <Footer />
-        </div>
+        <div className="max-w-[980px] mx-auto min-h-screen p-5">{children}</div>
       </body>
     </html>
   );
