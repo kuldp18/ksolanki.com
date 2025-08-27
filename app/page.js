@@ -1,3 +1,4 @@
+import Achievements from "@/components/Achievements";
 import Education from "@/components/Education";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
@@ -33,6 +34,7 @@ const Home = () => {
         <Skills />
         <Projects />
         <Education />
+        <Achievements />
       </main>
       <Footer />
     </>

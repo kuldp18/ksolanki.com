@@ -72,7 +72,7 @@ const Header = () => {
         </div>
         <div className="text-justify text-[#b7b7b7] text-[12px] md:text-[16px]">
           <p>
-            Full-Stack Web Developer with interest in building practical,
+            Full-Stack Web Developer with a passion for building practical,
             user-focused web applications that solve real-world problems.
           </p>
         </div>

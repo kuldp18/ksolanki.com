@@ -33,7 +33,7 @@ const projects = [
     type: "personal",
   },
   {
-    title: "Fast Currency Converter",
+    title: "Currency Converter",
     description:
       "Modern responsive currency converter built with React that helps you convert between different currencies with real-time exchange rates.",
     code: "https://github.com/kuldp18/react-currency",
