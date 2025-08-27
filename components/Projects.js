@@ -3,19 +3,11 @@ import SectionHeading from "./SectionHeading";
 
 const projects = [
   {
-    title: "Jiso",
+    title: "Jiso - AI Companion",
     description:
-      "Jiso is a full-stack web app built with MERN stack and open-source LLM for AI based mental health assistance.",
+      "Jiso is a full-stack web app built with MERN stack and open-source LLM for AI based personalized mental health assistance.",
     code: "https://github.com/kuldp18/jiso-frontend",
     type: "internship",
-  },
-  {
-    title: "Quiz Time",
-    description:
-      "A dynamic quiz app in React.js that tests your knowledge while keeping you on your toes!",
-    code: "https://github.com/kuldp18/quiz-time",
-    website: "https://quiz-time-js.netlify.app",
-    type: "personal",
   },
   {
     title: "Floating Sticky Notes",
@@ -26,18 +18,26 @@ const projects = [
     type: "personal",
   },
   {
+    title: "Quirx - Video Sharing",
+    description:
+      "YouTube-inspired video sharing site built with PHP and MySQL, with an admin panel. Users can also rate videos with 1 to 5 stars.",
+    code: "https://github.com/kuldp18/quirx",
+    type: "personal",
+  },
+  {
+    title: "Quiz Time",
+    description:
+      "Dynamic quiz app in React.js that tests your knowledge while keeping you on your toes!",
+    code: "https://github.com/kuldp18/quiz-time",
+    website: "https://quiz-time-js.netlify.app",
+    type: "personal",
+  },
+  {
     title: "Fast Currency Converter",
     description:
       "Modern responsive currency converter built with React that helps you convert between different currencies with real-time exchange rates.",
     code: "https://github.com/kuldp18/react-currency",
     website: "https://fast-currency-converter.netlify.app/",
-    type: "personal",
-  },
-  {
-    title: "Quirx",
-    description:
-      "YouTube-inspired video sharing site built with PHP and MySQL, with an admin panel. Users can also rate videos with 1 to 5 stars.",
-    code: "https://github.com/kuldp18/quirx",
     type: "personal",
   },
 ];

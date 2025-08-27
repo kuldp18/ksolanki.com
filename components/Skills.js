@@ -16,7 +16,7 @@ const skills = [
   },
   {
     label: "Tools & Technologies",
-    value: "Git, VS Code, Postman, RESTful APIs, LLMs, LLM Integrations",
+    value: "Git, VS Code, Postman, RESTful APIs, AI/LLM Integrations",
   },
 ];
 

@@ -9,7 +9,7 @@ const Experience = () => {
         <div className="flex flex-row justify-between">
           <div className="flex flex-col">
             <h3 className="text-[13px] sm:text-lg">
-              Full-Stack Web Development Intern
+              Full-Stack Web Developer Intern
             </h3>
             <p className="text-[#b7b7b7] text-[13px]">
               Business Web Solutions (BWS) Inc.
@@ -25,9 +25,8 @@ const Experience = () => {
           <li className="flex items-start gap-2">
             <span>•</span>
             <span>
-              Completed comprehensive training in JavaScript, React, Node.js and
-              other technologies, accelerating readiness for full-stack
-              development tasks.
+              Developed Jiso project after completing comprehensive training in
+              JavaScript, React.js, Node.js and other technologies
             </span>
           </li>
           <li className="flex items-start gap-2">
