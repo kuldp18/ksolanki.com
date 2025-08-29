@@ -17,7 +17,7 @@ const ProjectCard = ({ title, description, website, code, type }) => {
         {website && (
           <a
             href={website}
-            className="hover:text-white flex gap-1 items-center transition-colors"
+            className="hover:text-white flex gap-1 items-center transition-colors hover:underline"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -29,7 +29,7 @@ const ProjectCard = ({ title, description, website, code, type }) => {
         {code && (
           <a
             href={code}
-            className="hover:text-white flex gap-1 items-center transition-colors"
+            className="hover:text-white flex gap-1 items-center transition-colors hover:underline"
             rel="noopener noreferrer"
             target="_blank"
           >

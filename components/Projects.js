@@ -40,6 +40,12 @@ const projects = [
     website: "https://fast-currency-converter.netlify.app/",
     type: "personal",
   },
+  {
+    title: "Career Guidance Platform",
+    description:
+      "Career Guidance app using MERN Stack that recommends careers to users based on questions using ML model.",
+    type: "hackathon",
+  },
 ];
 
 const Projects = () => {

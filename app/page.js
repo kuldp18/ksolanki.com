@@ -30,8 +30,8 @@ const Home = () => {
     <>
       <Header />
       <main>
-        <Experience />
         <Skills />
+        <Experience />
         <Projects />
         <Education />
         <Achievements />

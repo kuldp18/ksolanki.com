@@ -8,7 +8,7 @@ const skills = [
   {
     label: "Frameworks & Libraries",
     value:
-      "React.js, Next.js, Node.js, Express.js, Mongoose, ShadCN, Tailwind CSS",
+      "React.js, Next.js, Node.js, Express.js, Mongoose, ShadCN UI, Tailwind CSS",
   },
   {
     label: "Databases",
@@ -16,7 +16,8 @@ const skills = [
   },
   {
     label: "Tools & Technologies",
-    value: "Git, VS Code, Postman, RESTful APIs, AI/LLM Integrations",
+    value:
+      "Git, VS Code, Postman, RESTful APIs, AI/LLM Integrations, MERN Stack",
   },
 ];
 
