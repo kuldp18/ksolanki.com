@@ -10,6 +10,14 @@ const projects = [
     type: "internship",
   },
   {
+    title: "PDF Chat",
+    description:
+      "Enables users to upload PDF files and interactively ask questions about their content using Retrieval-Augmented Generation (RAG).",
+    code: "https://github.com/kuldp18/pdf-rag-chat",
+    website: "https://pdf-rag-chat-kuldp18.vercel.app",
+    type: "personal",
+  },
+  {
     title: "Floating Sticky Notes",
     description:
       "Full-stack note-taking application with user authentication. Uses AppWrite as backend.",

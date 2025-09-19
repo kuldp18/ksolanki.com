@@ -3,7 +3,7 @@ import SectionHeading from "./SectionHeading";
 const skills = [
   {
     label: "Languages",
-    value: "JavaScript, HTML, CSS, PHP, Python",
+    value: "JavaScript, TypeScript, HTML, CSS, PHP, Python",
   },
   {
     label: "Frameworks & Libraries",
@@ -12,7 +12,7 @@ const skills = [
   },
   {
     label: "Databases",
-    value: "MongoDB, MySQL/SQL",
+    value: "MongoDB, MySQL/SQL, Vector databases",
   },
   {
     label: "Tools & Technologies",
