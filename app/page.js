@@ -2,39 +2,66 @@ import Achievements from "@/components/Achievements";
 import Education from "@/components/Education";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
-import Header from "@/components/Header";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
+import Hero from "@/components/Hero";
+import Section from "@/components/Section";
 
 export const metadata = {
-  title:
-    "Kuldeep Solanki - Full Stack Developer Portfolio | React.js, Node.js, Next.js",
+  title: "Kuldeep Solanki - Full Stack Developer",
   description:
-    "Professional portfolio showcasing full stack web development projects by Kuldeep Solanki. Expertise in React.js, Next.js, Node.js, Express.js, MongoDB, and modern web technologies. Available for hire in India.",
+    "Welcome to the portfolio of Kuldeep Solanki, a full stack developer specializing in React, Next.js, and Node.js. Explore my projects, skills, and experience.",
+  keywords: [
+    "Kuldeep Solanki",
+    "Full Stack Developer",
+    "React Developer",
+    "Next.js Developer",
+    "Node.js Developer",
+    "Portfolio",
+    "Web Developer India",
+  ],
   openGraph: {
-    title:
-      "Kuldeep Solanki - Full Stack Developer Portfolio | React.js, Node.js, Next.js",
+    title: "Kuldeep Solanki - Full Stack Developer Portfolio",
     description:
-      "Professional portfolio showcasing full stack web development projects by Kuldeep Solanki. Expertise in React.js, Next.js, Node.js, Express.js, MongoDB, and modern web technologies.",
+      "Explore the work of Kuldeep Solanki, a full stack developer with expertise in modern web technologies.",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Kuldeep Solanki Portfolio",
+      },
+    ],
   },
   twitter: {
-    title:
-      "Kuldeep Solanki - Full Stack Developer Portfolio | React.js, Node.js, Next.js",
+    card: "summary_large_image",
+    title: "Kuldeep Solanki - Full Stack Developer Portfolio",
     description:
-      "Professional portfolio showcasing full stack web development projects by Kuldeep Solanki. Expertise in React.js, Next.js, Node.js, Express.js, MongoDB, and modern web technologies.",
+      "Check out my portfolio! As a full stack developer, I build modern, user-focused web applications.",
+    images: ["/twitter-image.jpg"],
   },
 };
 
 const Home = () => {
   return (
     <>
-      <Header />
+      <Hero />
       <main>
-        <Skills />
-        <Experience />
-        <Projects />
-        <Education />
-        <Achievements />
+        <Section>
+          <Skills />
+        </Section>
+        <Section>
+          <Experience />
+        </Section>
+        <Section>
+          <Projects />
+        </Section>
+        <Section>
+          <Education />
+        </Section>
+        <Section>
+          <Achievements />
+        </Section>
       </main>
       <Footer />
     </>
